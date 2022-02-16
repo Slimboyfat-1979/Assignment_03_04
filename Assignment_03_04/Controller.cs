@@ -8,11 +8,20 @@ namespace Assignment_03_04
 {
     public class Controller
     {
-        List<Customer> customerList = new List<Customer>();
+        public List<Customer> customerList = new List<Customer>();
 
+      
         public void AddCustomer(Customer c)
         {
             customerList.Add(c);
         }
+
+        public Customer Getcustomer(int index)
+        {
+            return customerList[index];
+        }
+
+       
+        
     }
 }

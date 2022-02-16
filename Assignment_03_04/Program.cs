@@ -17,7 +17,7 @@ namespace Assignment_03_04
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(Home.GetInstance());
         }
     }
 }
